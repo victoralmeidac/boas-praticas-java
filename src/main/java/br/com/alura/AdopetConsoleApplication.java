@@ -11,8 +11,6 @@ public class AdopetConsoleApplication {
         ClientHttpConfiguration client = new ClientHttpConfiguration();
         AbrigoService abrigoService = new AbrigoService(client);
         PetService petService = new PetService(client);
-
-
         System.out.println("##### BOAS VINDAS AO SISTEMA ADOPET CONSOLE #####");
         try {
             int opcaoEscolhida = 0;
